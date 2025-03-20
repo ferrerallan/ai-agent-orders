@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "ai-engage-agentic"
+version = "0.1.0"
+description = ""
+authors = ["Allan Ferreira <ferrerallan@gmail.com>"]
+
+packages = [
+  { include = "." }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.1"
+black = "^24.10.0"
+isort = "^5.13.2"
+langchain = "^0.3.14"
+langchain-openai = "^0.3.0"
+langgraph = "^0.2.62"
+grandalf = "^0.8"
+streamlit = "^1.41.1"
+chromadb = "^0.6.2"
+sentence-transformers = "^3.3.1"
+langchain-community = "^0.3.14"
+fastapi = "^0.115.7"
+uvicorn = "^0.34.0"
+faiss-cpu = "^1.9.0"
+langchain-core = "^0.3.40"
+awscli = "^1.38.3"
+boto3 = "^1.37.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
